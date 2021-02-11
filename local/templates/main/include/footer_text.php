@@ -1,0 +1,1 @@
+© <?= date('Y'); ?>. Частный программист 1C-Битрикс - Александр Сергеев | Design by <a href="https://w3layouts.com/" rel="nofollow">W3Layouts</a>

@@ -1,0 +1,89 @@
+.w3l-main-banner .banner-view{
+    background-position-y: center;
+}
+
+.b-about-certs .col-cert{
+    margin-bottom: 30px;
+}
+
+.btn-about-order{
+    margin: 10px 0 70px 0;
+}
+
+.hidden{
+    display: none;
+}
+
+#contact .order-form-msg {
+    margin-bottom: 20px;
+}
+
+#contact .order-form-msg span {
+    color: #228B22;
+}
+
+#contact .mf-captcha {
+    margin: 0 0 25px 0;
+}
+
+#contact .mf-captcha img {
+    margin: 0 0 15px 0;
+}
+
+.w3l-blog .blog-info h4{
+    min-height: 53px;
+}
+
+.w3l-blog .grid-view .grids5-info .blog-text{
+    min-height: 124px;
+}
+
+.w3l-blog-single .text2-text {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 10px;
+    color: var(--text-color);
+}
+
+.w3l-blog-single .text-styles-top-33 {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 30px;
+    border-left: 2px solid #eee;
+}
+
+.w3l-blog-single .w3l-text-styles-33_sur {
+    margin: 40px 0;
+}
+
+.w3l-blog-single .w3l-text-styles-33_sur .container {
+    padding: 0;
+}
+
+.w3l-blog-single .w3l-blog-single1 .w3l-text-styles-33_sur p {
+    font-size: 22px;
+    line-height: 33px;
+    color: var(--primary-color);
+}
+
+.w3l-blog-single .b-blog-footer {
+    margin: 40px 0;
+}
+
+.w3l-blog-single .b-blog-back{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+}
+
+.w3l-blog-single .b-social-share {
+    float: right;
+}
+
+.w3l-blog-single .b-blog-comments {
+    margin: 150px 0 0 0;
+}
+
+.b-content {
+    min-height: 450px;
+}
