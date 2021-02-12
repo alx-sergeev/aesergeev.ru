@@ -1,6 +1,6 @@
 <?
 require($_SERVER['DOCUMENT_ROOT'].'/bitrix/header.php');
-$APPLICATION->SetTitle('Главная');
+$APPLICATION->SetTitle('Частный разработчик Bitrix Framework - Александр Сергеев');
 ?>
     <section class="w3l-main-banner">
         <div class="companies20-content">
