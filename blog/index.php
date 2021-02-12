@@ -1,6 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Блог");
+$APPLICATION->SetPageProperty("title", "Блог разработчика Bitrix Framework - Александр Сергеев");
+$APPLICATION->SetTitle("Блог разработчика Bitrix Framework");
 ?>
 
 <?$APPLICATION->IncludeComponent("bitrix:news", "blog", Array(

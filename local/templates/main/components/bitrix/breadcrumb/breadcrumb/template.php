@@ -13,7 +13,7 @@ if(empty($arResult))
 
 $strReturn = '';
 $strReturn .= '<section class="w3l-blog-breadcrum"><div class="breadcrum-bg py-sm-5 py-4"><div class="container py-lg-3">';
-$strReturn .= '<h2>' . $APPLICATION->GetTitle() . '</h2>';
+$strReturn .= '<h1>' . $APPLICATION->GetTitle() . '</h1>';
 $strReturn .= '<p>';
 
 $itemSize = count($arResult);

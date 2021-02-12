@@ -16129,7 +16129,8 @@ section.w3l-grid-quote h3 {
     background-attachment: fixed;
 }
 
-.w3l-blog-breadcrum .breadcrum-bg h2 {
+.w3l-blog-breadcrum .breadcrum-bg h1,
+.w3l-blog-breadcrum .breadcrum-bg h2{
     font-size: 45px;
     color: #fff;
     font-weight: 700;
