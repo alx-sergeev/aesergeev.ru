@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Блог разработчика Bitrix Framework - Александр Сергеев");
 $APPLICATION->SetTitle("Блог разработчика Bitrix Framework");
 ?>
 
