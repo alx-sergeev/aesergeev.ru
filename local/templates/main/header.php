@@ -8,18 +8,27 @@ global $APPLICATION;
 $assetInstance = Asset::getInstance();
 
 
+// Подключение стилей.
+$arStyles = [
+    'stackoverflow-light'
+];
+foreach($arStyles as $styleName)
+    $assetInstance->addCss(SITE_TEMPLATE_PATH . "/assets/css/{$styleName}.css");
+
+
 // Подключение скриптов.
 $arScripts = [
-    'part1.js',
-    'jquery-3.4.1.slim.min.js',
+    'part1',
+    'jquery-3.4.1.slim.min',
     'bootstrap.min.js',
-    'jquery.magnific-popup.min.js',
-    'part2.js',
-    'smartphoto.js',
-    'custom.js'
+    'jquery.magnific-popup.min',
+    'part2',
+    'smartphoto',
+    'highlight.pack',
+    'custom'
 ];
-foreach($arScripts as $scriptPath)
-    $assetInstance->addJs(SITE_TEMPLATE_PATH . "/assets/js/{$scriptPath}");
+foreach($arScripts as $scriptName)
+    $assetInstance->addJs(SITE_TEMPLATE_PATH . "/assets/js/{$scriptName}.js");
 
 
 // Проверка на главную.
@@ -35,7 +44,7 @@ $isMain = $APPLICATION->GetCurPage() == '/';
 
         <link href="//fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
         <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
-	</head>
+    </head>
 	<body>
 		<div id="panel">
 			<?$APPLICATION->ShowPanel();?>
