@@ -18,17 +18,17 @@ foreach($arStyles as $styleName)
 
 // Подключение скриптов.
 $arScripts = [
-    'part1.js',
-    'jquery-3.4.1.slim.min.js',
+    'part1',
+    'jquery-3.4.1.slim.min',
     'bootstrap.min.js',
-    'jquery.magnific-popup.min.js',
-    'part2.js',
-    'smartphoto.js',
-    'highlight.pack.js',
-    'custom.js'
+    'jquery.magnific-popup.min',
+    'part2',
+    'smartphoto',
+    'highlight.pack',
+    'custom'
 ];
-foreach($arScripts as $scriptPath)
-    $assetInstance->addJs(SITE_TEMPLATE_PATH . "/assets/js/{$scriptPath}");
+foreach($arScripts as $scriptName)
+    $assetInstance->addJs(SITE_TEMPLATE_PATH . "/assets/js/{$scriptName}.js");
 
 
 // Проверка на главную.
