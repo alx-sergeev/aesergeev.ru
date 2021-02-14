@@ -8,6 +8,14 @@ global $APPLICATION;
 $assetInstance = Asset::getInstance();
 
 
+// Подключение стилей.
+$arStyles = [
+    'stackoverflow-light'
+];
+foreach($arStyles as $styleName)
+    $assetInstance->addCss(SITE_TEMPLATE_PATH . "/assets/css/{$styleName}.css");
+
+
 // Подключение скриптов.
 $arScripts = [
     'part1.js',
@@ -16,6 +24,7 @@ $arScripts = [
     'jquery.magnific-popup.min.js',
     'part2.js',
     'smartphoto.js',
+    'highlight.pack.js',
     'custom.js'
 ];
 foreach($arScripts as $scriptPath)
@@ -35,7 +44,7 @@ $isMain = $APPLICATION->GetCurPage() == '/';
 
         <link href="//fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
         <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
-	</head>
+    </head>
 	<body>
 		<div id="panel">
 			<?$APPLICATION->ShowPanel();?>
