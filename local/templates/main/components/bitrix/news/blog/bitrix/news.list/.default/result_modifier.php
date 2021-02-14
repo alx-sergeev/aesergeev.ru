@@ -7,23 +7,5 @@ if(count($arResult['ITEMS']) > 0){
 
             $arResult['ITEMS'][$key]['PREVIEW_PICTURE']['SRC'] = $resizeImage['src'];
         endif;
-
-        if($arItem['PREVIEW_TEXT']):
-            $tmpPreviewText = mb_substr($arItem["PREVIEW_TEXT"], 0, 200, 'UTF-8');
-            $findProbel = mb_strripos($tmpPreviewText, ' ', 0, 'UTF-8');
-
-            if(!$findProbel)
-            {
-                $numStartSearch = 350;
-                $addSymbols = '';
-            }
-            else
-            {
-                $numStartSearch = $findProbel;
-                $addSymbols = '...';
-            }
-
-            $arResult['ITEMS'][$key]['PREVIEW_TEXT'] = strip_tags(mb_substr($tmpPreviewText, 0, $numStartSearch, 'UTF-8') . $addSymbols);
-        endif;
     endforeach;
 }

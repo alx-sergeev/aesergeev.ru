@@ -70,7 +70,7 @@ $APPLICATION->SetTitle("Блог разработчика Bitrix Framework");
 		"PAGER_SHOW_ALWAYS" => "N",	// Выводить всегда
 		"PAGER_TEMPLATE" => ".default",	// Шаблон постраничной навигации
 		"PAGER_TITLE" => "Статьи",	// Название категорий
-		"PREVIEW_TRUNCATE_LEN" => "",	// Максимальная длина анонса для вывода (только для типа текст)
+		"PREVIEW_TRUNCATE_LEN" => "250",	// Максимальная длина анонса для вывода (только для типа текст)
 		"SEF_FOLDER" => "/blog/",	// Каталог ЧПУ (относительно корня сайта)
 		"SEF_MODE" => "Y",	// Включить поддержку ЧПУ
 		"SEF_URL_TEMPLATES" => array(
