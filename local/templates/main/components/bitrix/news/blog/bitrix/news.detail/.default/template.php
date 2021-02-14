@@ -49,6 +49,12 @@ if(array_key_exists('USE_SHARE', $arParams) && $arParams['USE_SHARE'] == 'Y') {
                                 <p><span class='fa fa-user'></span> <?= $arResult['AUTHOR']; ?></p>
                             </li>
                         <?endif;?>
+
+                        <li>
+                            <p>
+                                <span class='fa fa-eye'></span> Просмотров: <?= $arResult['SHOW_COUNTER']; ?>
+                            </p>
+                        </li>
                     </ul>
                 </div>
             </div>

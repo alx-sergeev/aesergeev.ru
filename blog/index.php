@@ -29,7 +29,7 @@ $APPLICATION->SetTitle("Блог разработчика Bitrix Framework");
 		"DETAIL_DISPLAY_TOP_PAGER" => "N",	// Выводить над списком
 		"DETAIL_FIELD_CODE" => array(	// Поля
 			0 => "PREVIEW_PICTURE",
-			1 => "",
+			1 => "SHOW_COUNTER",
 		),
 		"DETAIL_PAGER_SHOW_ALL" => "N",	// Показывать ссылку "Все"
 		"DETAIL_PAGER_TEMPLATE" => "",	// Название шаблона
