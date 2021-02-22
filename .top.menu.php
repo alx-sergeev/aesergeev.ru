@@ -42,13 +42,13 @@ $aMenuLinks = Array(
 		Array(), 
 		"" 
 	),*/
-	Array(
+	/*Array(
 		"Блог", 
 		"/blog/", 
 		Array(), 
 		Array(), 
-		"" 
-	),
+		""
+	),*/
 	Array(
 		"Оставить заявку", 
 		"/#contact", 
